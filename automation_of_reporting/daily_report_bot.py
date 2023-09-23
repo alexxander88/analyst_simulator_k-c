@@ -26,7 +26,7 @@ def dag_aserov_daily_report():
     @task
     def send_daily_report(chat=-928988566):
 
-        my_token = '6454685986:AAFNxTHKQXPMi1WHtcdZU1QM8diVPiBg7Lc'
+        my_token = '###'
         bot = telegram.Bot(token=my_token) # получаем доступ к боту
         chat_id = chat or 393568442
 

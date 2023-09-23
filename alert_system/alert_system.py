@@ -81,7 +81,7 @@ def dag_aserov_alert_system():
     # функция для отправки алёрта в телеграмм
     def run_alerts(data, chat_id=None):
         chat_id = chat_id or 393568442
-        bot = telegram.Bot(token='6400805550:AAGeDEEDTyhY0tJBEF32BGVoHofXMYjJbqs')
+        bot = telegram.Bot(token='###')
 
         # функция для проверки наличия аномалий
         def check_anomaly(df, metric, a=4, n=5):
